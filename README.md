@@ -4,9 +4,9 @@ A quick hack to get an Ola cab at your location at the press of your Amazon Dash
 
 ## Setup
 
-* OlaDashServer - Setup your location coordinates in /OlaDashServer/settings.py and run "python manage.py makemigrations" followed by "python manage.py runserver 0.0.0.0:8000". <insert Ola auth process here once you get the API keys>
+* OlaDashServer - Setup your location coordinates in /OlaDashServer/settings.py and run "python manage.py makemigrations" followed by "python manage.py runserver 0.0.0.0:8000". *insert Ola auth process here once you get the API keys*
 
-* RPiButton - Configure the server address in WebButton.py and make it run at startup by adding this line to your /etc/rc.local in your RPi - "(sleep 5;python <Address to WebButton.py>)&"
+* RPiButton - Configure the server address in WebButton.py and make it run at startup by adding this line to your /etc/rc.local in your RPi - "(sleep 5;python *Address to WebButton.py*)&"
 
 ## Current Status
 
